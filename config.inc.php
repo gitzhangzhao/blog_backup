@@ -42,7 +42,7 @@ $db->addServer(array (
   'charset' => 'utf8mb4',
   'port' => '7368',
   'database' => 'railway',
-  'engine' => 'MySQL',
+  'engine' => 'MyISAM',
 ), Typecho_Db::READ | Typecho_Db::WRITE);
 Typecho_Db::set($db);
 
