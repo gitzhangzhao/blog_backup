@@ -1,6 +1,0 @@
-require('./sidebar')
-require('./affix')
-require('./mouse')
-require('./totop')
-require('./donpay')
-require('./imgview')
