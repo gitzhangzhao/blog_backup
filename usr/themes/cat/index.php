@@ -20,6 +20,9 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
             <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
     <?php $this->widget('Widget_Metas_Category_List')
                ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+    <?php $this->widget('Widget_Metas_Category_List')
+               ->parse('<li><a href="{permalink}">{name}</a></li>'); ?>
+
         </nav>
     </section>
     <section class="posts">
