@@ -16,10 +16,12 @@
         <?php while($this->next()): ?>
         <a class="post" href="<?php $this->permalink() ?>">
             <?php $this->title() ?>
-            <span><?php $this->date('F j, Y'); ?><?php $this->commentsNum('', ', 1 comment', ', %d comments'); ?></span>
+            <span><?php $this->date('Y年'); ?><?php $this->commentsNum('', ', 1条评论', ', %d条评论'); 
+?></span>
         </a>
         <?php endwhile; ?>
     </section>
-    <?php $this->pageNav('上一页', '下一页', 0, ''); ?>
+    <?php $this->pageNav('浮', '沉', 0, ''); ?>
 </section>
 <?php $this->need('footer.php'); ?>
+
