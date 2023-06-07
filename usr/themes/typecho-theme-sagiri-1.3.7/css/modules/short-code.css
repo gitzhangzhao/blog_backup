@@ -1,0 +1,6 @@
+.sagiri-video-wrapper > iframe,
+.sagiri-video-wrapper video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+}
