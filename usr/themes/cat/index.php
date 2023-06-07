@@ -17,9 +17,7 @@ if (!defined('__TYPECHO_ROOT_DIR__')) exit;
         <div class="name"><?php $this->options->title() ?></div>
         <div class="description"><?php $this->options->description() ?></div>
         <nav>
-            <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
-    <?php $this->widget('Widget_Metas_Category_List')
-               ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
+            <li><a href="<?php $this->options->siteUrl(); ?>">home</a></li>
     <?php $this->widget('Widget_Metas_Category_List')
                ->parse('<li><a href="{permalink}">{name}</a></li>'); ?>
 
